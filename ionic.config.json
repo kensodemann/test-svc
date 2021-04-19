@@ -1,0 +1,7 @@
+{
+  "name": "test-svc",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
