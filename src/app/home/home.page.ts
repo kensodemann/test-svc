@@ -28,8 +28,9 @@ export class HomePage {
         (error: any) => console.error(error)
       );
 
-    setTimeout(() => {
-      this.safariViewController.hide();
+    setTimeout(async () => {
+      await this.safariViewController.hide();
+      alert('the thingie was closed');
     }, 2500);
   }
 }
